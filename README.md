@@ -19,6 +19,9 @@ like this
 ibrik cover script.coffee
 istanbul report html
 open coverage/index.html
+
+ibrik instrument script.coffee [-o output.js]
+ibrik instrument lib/ -o lib-cov [-x <**/node_modules/**>]
 ```
 
 ### License
